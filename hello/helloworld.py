@@ -53,7 +53,7 @@ print(a, b, c)
 
 # 五个标准的数据类型
 '''
-Numbers 
+Numbers
  int long float complex(a,b) a+bj 复数 a,b都是浮点型
 
 String List Tuple Dictionary
@@ -202,13 +202,13 @@ print(a == b)
 ** 指数
 ~ + - (按位翻转 一元加号 一元减号)
 * / % //®
-+ - 
++ -
 <<  >>
 & 位 'AND'
 ^ | 位运算
 <= < > >=
 == !=
-=   %=  /=  //= -= += *= **= 
+=   %=  /=  //= -= += *= **=
 is is not
 in not in
 not or and
@@ -257,7 +257,6 @@ while count < 5:
     print(count)
 else:
     print("超过了5了")
-
 
 
 #多行语句
