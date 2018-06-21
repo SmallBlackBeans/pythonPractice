@@ -9,6 +9,7 @@ fruits = ["老头子", "小黑豆", "吴彦祖"]
 for index in range(len(fruits)):
     print("当前水果:" + fruits[index])
 
+
 # 获取质数
 for num in range(10, 100):
     for i in range(2, num):

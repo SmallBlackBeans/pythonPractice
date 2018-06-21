@@ -111,7 +111,7 @@ print(m ^ n)  # 不同时存在的元素
 
 '''
 Dictionary
-key 必须使用不可变类型：number类型 和 string
+dict 的 key 必须是不可变数据类型，如：int、float、string、tuple，而 list 和 dict 不能作为 key
 '''
 # 直接从键值对序列中构建字典
 dict1 = dict([('first', 1), ('second', 2), (3, "three")])

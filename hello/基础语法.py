@@ -31,8 +31,8 @@ x = 'hanchenghai'; sys.stdout.write(x + '\n')
 # print输出
 # 换行
 print('nihao')
-print('什么👻',end='xxx')
-print('oh',end='xxx')
+print('什么👻','xxx')
+print('oh','xxx')
 
 # import 与 from...import
 for i in sys.argv:
