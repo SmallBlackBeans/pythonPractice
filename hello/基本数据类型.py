@@ -52,7 +52,7 @@ print(name[0:-1])
 print(name[0])
 print(name[3:len(name)])  # [n:m]不会包含最后一个位置 >=n  <m
 
-# 去掉 转义字符
+# 去掉、防止 转义字符 前面加上r
 print(r'我没有转义字符\n')
 
 #

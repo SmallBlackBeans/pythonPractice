@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>韩小醋</title>
+</head>
+<body>
+ <h1>{{hello}}}</h1>
+    {# 名为 mainbody 的 block 标签是可以被继承者们替换掉的部分。 #}
+    <p>Django 测试。</p>
+    {% block mainbody %}
+       <p>original</p>
+    {% endblock %}
+</body>
+</html>
