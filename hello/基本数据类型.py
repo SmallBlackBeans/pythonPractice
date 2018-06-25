@@ -119,8 +119,10 @@ print(dict1)
 print(dict1.keys())
 print(dict1.values())
 
+d = {'hanxiaocu':26,'hanchenghai':26}
+d.get('hanxiaocu',100)#如果没有返回100
 
-
+d.pop('hanxiaocu') #删除
 
 #Python 3版本中，字符串是以Unicode编码的
 
