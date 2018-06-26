@@ -29,10 +29,10 @@ soup = BeautifulSoup(html, 'lxml')
 # ## 文档树
 # # .contents 子节点列表
 #
-# # .chirldren 一个list生成器
+# .chirldren 一个list生成器
 # for child in  soup.body.children:
 #     print(child)
 
-# .descendants 所有的子孙节点
+# # .descendants 所有的子孙节点
 for child in soup.descendants:
     print(child)
