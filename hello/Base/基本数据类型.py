@@ -1,5 +1,3 @@
-import  baseHeader
-
 # 多个变量同时赋值
 a = b = c = 1
 

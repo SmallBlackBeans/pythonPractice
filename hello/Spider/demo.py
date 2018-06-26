@@ -5,7 +5,6 @@ from urllib import request
 from urllib import parse
 from urllib.request import urlopen
 import urllib3
-
 url = "http://xxx/login"
 user_agent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
 values = {'username': 'xx', 'password': 'xxx'}
