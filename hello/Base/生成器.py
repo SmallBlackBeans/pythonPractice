@@ -5,12 +5,12 @@
 
 
 # 列表解析
-foo = [i ** 2 for i in xrange(10)]
+foo = [i ** 2 for i in range(10)]
 for i in foo:
     print(i)
 
 # 生成器
-bar = (i ** 2 for i in xrange(10))
+bar = (i ** 2 for i in range(10))
 for i in bar:
     print(i)
 
@@ -32,7 +32,7 @@ for i in fib_list:
 
 # next() 取生成器生成的值
 for i in fib_list:
-    print fib_list.next()
+    print(fib_list.next())
 
 
 # 迭代器的作用仍然是节省内存 重写 __iter__ 和 next 方法是实现迭代器的协
