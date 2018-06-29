@@ -32,7 +32,7 @@ driver.get("http://www.python.org")
 表单元素 下拉选项卡
 '''
 element = driver.find_element_by_xpath("//select[@name='name']")
-all_options = element.find_element_by_tag_name('option')
+all_options = element.find_elements_by_tag_name('option')
 for option in all_options:
     print('value is %s ' % option.get_attribute('value'))
     option.click()
@@ -96,3 +96,42 @@ driver.get("http://www.example.com")
 # Now set the cookie. This one's valid for the entire domain
 cookie = {'name': 'foo', 'value': 'bar'}
 driver.add_cookie(cookie)
+
+
+'''
+元素选取
+'''
+from selenium.webdriver.common.by import By
+# ID = "id"
+# XPATH = "xpath"
+# LINK_TEXT = "link text"
+# PARTIAL_LINK_TEXT = "partial link text"
+# NAME = "name"
+# TAG_NAME = "tag name"
+# CLASS_NAME = "class name"
+# CSS_SELECTOR = "css selector"
+driver.find_element(By.XPATH,'//button[text()="some text]')
+driver.find_elements(By.XPATH,'//button')
+
+
+''''
+页面等待  显示等待/隐式等待
+'''
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+driver.get('http://www.baidu.com')
+try:
+    element = WebDriverWait(driver,10).until(
+        EC.presence_of_element_located((By.ID,'idElement'))
+        )
+finally:
+    driver.quit()
+
+
+wait = WebDriverWait(driver, 10)
+element = wait.until(EC.element_to_be_clickable((By.ID,'someid')))
+
+# 隐式等待
+driver.implicitly_wait(10) # seconds
+driver.get("http://somedomain/url_that_delays_loading")
+myDynamicElement = driver.find_element_by_id("myDynamicElement")

@@ -1,4 +1,3 @@
-import Spider.SpiderTool
 import re
 import os
 import urllib

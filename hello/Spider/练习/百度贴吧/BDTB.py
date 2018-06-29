@@ -3,7 +3,7 @@
 import urllib
 import re
 from urllib import request
-from Spider.SpiderTool import SpiderTool
+from 基础学习.SpiderTool import SpiderTool
 
 
 class BDTB:
