@@ -1,6 +1,6 @@
 # coding: utf-8
 
-
+# 反爬虫
 import requests
 import re
 import random
@@ -68,7 +68,6 @@ class download():
                 proxy = {'http': IP}  ##构造成一个代理
                 return requests.get(url, headers=headers, proxies=proxy, timeout=timeout)  ##使用代理获取response
             except:
-
                 if num_retries > 0:
                     time.sleep(10)
                     IP = ''.join(str(random.choice(self.iplist)).strip())
@@ -81,4 +80,4 @@ class download():
                     return self.get(url, 3)
 
 
-request = download()  ##
+down = download()  ##

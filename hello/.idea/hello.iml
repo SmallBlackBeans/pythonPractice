@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Spider" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Spider/第三方框架" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Spider/第三方框架/lxmlxpath" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Spider/练习/妹子图" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
