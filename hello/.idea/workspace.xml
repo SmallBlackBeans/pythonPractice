@@ -314,8 +314,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.meizi_list">
-    <configuration default="false" name="基本数据类型" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.__init__">
+    <configuration name="基本数据类型" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="hello" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -326,13 +327,12 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="hello" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/基本数据类型.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <method />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="hello" />
@@ -490,17 +490,14 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
+      <item itemvalue="Python.__init__" />
+      <item itemvalue="Python.requests" />
+      <item itemvalue="Python.基本数据类型" />
       <item itemvalue="Python.spider" />
       <item itemvalue="Python.seleniumDemo" />
-      <item itemvalue="Python.lxmlDemo" />
-      <item itemvalue="Python.pyQueryDemo" />
-      <item itemvalue="Python.meizi_list" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.meizi_list" />
-        <item itemvalue="Python.pyQueryDemo" />
-        <item itemvalue="Python.lxmlDemo" />
         <item itemvalue="Python.seleniumDemo" />
         <item itemvalue="Python.spider" />
       </list>
@@ -528,7 +525,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32934928" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49930555" visible="true" weight="0.40985578" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49930555" weight="0.40985578" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32934928" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49275362" visible="true" weight="0.18263888" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
