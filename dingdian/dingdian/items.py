@@ -12,13 +12,12 @@ import scrapy
 
 class DingdianItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
     # 小说名称
     name = scrapy.Field()
     # 作者
     author = scrapy.Field()
     # 小说链接
-    novelUrl = scrapy.Field()
+    novelurl = scrapy.Field()
     # 连载状态
     serialStatus = scrapy.Field
     # 连载字数
@@ -26,4 +25,16 @@ class DingdianItem(scrapy.Item):
     # 文章类别
     category = scrapy.Field()
     # 小说标号
-    novel_id = scrapy.Field()
+    name_id = scrapy.Field()
+
+class DcontentItem(scrapy.Item):
+    #小说标号
+    id_name = scrapy.Field()
+    # 章节内容
+    chaptercontent = scrapy.Field()
+    # 章节顺序
+    num = scrapy.Field()
+    # 章节地址
+    chapterurl = scrapy.Field()
+    # 章节名字
+    chaptername = scrapy.Field()
