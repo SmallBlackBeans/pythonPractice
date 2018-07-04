@@ -6,6 +6,21 @@
 # https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
+import json
+import random
+import redis
+from .useragent import agents
+from scrapy.downloadermiddlewares.useragent import UserAgentMiddleware
+from scrapy.downloadermiddlewares.retry import RetryMiddleware
+
+import logging
+from .cookies import init_cookie,remove_cookie,update_cookie
+
+
+class UserAgentmiddleware(UserAgentMiddleware):
+    def process_request(self, request, spider):
+        agent = random.choice(agents)
+        request.headers['User-Agent'] = agent
 
 
 class DingdianSpiderMiddleware(object):
@@ -55,6 +70,28 @@ class DingdianSpiderMiddleware(object):
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
 
+
+class CookieMiddleware(RetryMiddleware):
+
+    def __init__(self,settings,crawer):
+        RetryMiddleware.__init__(self,settings)
+        self.rconn = redis.from_url(settings['REDIE_URL'],db=1,decode_responses=True)
+        init_cookie(self.rconn,crawer.spider.name)
+
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        return cls(crawler.settings,crawler)
+
+    def process_request(self,request,spider):
+        redisKeys = self.rconn.keys()
+        while len(redisKeys) > 0 :
+            elem = random.choice(redisKeys)
+            if spider.name + ':Cookies' in elem:
+                cookie = json.loads(self.rconn.get(elem))
+                request.cookies = cookie
+                request.meta['accountText'] = elem.split("Cookies:")[-1]
+                break
 
 class DingdianDownloaderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
