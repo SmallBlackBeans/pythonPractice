@@ -38,3 +38,12 @@ class DcontentItem(scrapy.Item):
     chapterurl = scrapy.Field()
     # 章节名字
     chaptername = scrapy.Field()
+
+
+class HaodufuliItem(scrapy.Item):
+    category = scrapy.Field()
+    imgurl = scrapy.Field()
+    yunlink = scrapy.Field()
+    url = scrapy.Field()
+    password = scrapy.Field()
+    title = scrapy.Field()
