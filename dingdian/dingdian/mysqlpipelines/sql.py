@@ -63,8 +63,7 @@ class Sql:
         return cur.fetchall()[0]
 
 
-    '''
-    一个SQL脚本
+    # 一个SQL脚本
     '''
     # def process_item(self, item, spider):
     #     if isinstance(item, WhoscoredNewItem):
@@ -80,3 +79,4 @@ class Sql:
     #         sql = sql[:-2]
     #         self.cursor.execute(sql) #执行SQL
     #         self.cnx.commit()# 写入操作
+    '''
