@@ -32,7 +32,7 @@ from http import cookiejar  # 2中叫cookielib
 # req = request.Request('http://www.baidu.com')
 # opener = request.build_opener(request.HTTPCookieProcessor(cookie))
 # response = opener.open(req)
-# print(response.read())
+# print(response.read().decode('utf-8'))
 
 
 filename = 'cookie.txt'

@@ -17,15 +17,15 @@ text = '''
 '''
 
 # html
-# html = etree.HTML(text)
-# result = etree.tostring(html)
-# print(result)
+html = etree.HTML(text)
+result = etree.tostring(html)
+print(result.decode('utf-8'))
 
 # 本地解析 parse
 from lxml import etree
-html = etree.parse('hello.html')
+html = etree.parse('hello.html',etree.HTMLParser())
 result = etree.tostring(html,pretty_print=True)
-print(result)
+print(result.decode('utf-8'))
 
 '''
 <div>
@@ -53,3 +53,20 @@ result= html.xpath('//li/a//@class')
 result = html.xpath('//li[last()]/a/@href')
 
 result = html.xpath('//*[@class="bold"]')
+
+
+# 属性多值匹配
+text = '''
+<li class="li li-first"><a href="link.html">first item</a></li>
+'''
+html = etree.HTML(text)
+result = html.xpath('//li[contains(@class, "li")]/a/text()')
+print(result)
+
+# 多属性匹配
+text = '''
+<li class="li li-first" name="item"><a href="link.html">first item</a></li>
+'''
+html = etree.HTML(text)
+result = html.xpath('//li[contains(@class, "li") and @name="item"]/a/text()')
+print(result)

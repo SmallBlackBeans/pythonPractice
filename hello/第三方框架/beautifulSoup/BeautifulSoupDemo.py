@@ -18,36 +18,36 @@ and they lived at the bottom of a well.</p>
 
 soup = BeautifulSoup(html, 'lxml')
 
-# print(soup.prettify())
-#
-# # NavigableString
-# print(soup.p.string)
-#
-# # Comment 注释
-# if type(soup.a.string) == bs4.element.Comment:
-#     print(soup.a.string)
-#
+print(soup.prettify())
+
+# NavigableString
+print(soup.p.string)
+
+# Comment 注释
+if type(soup.a.string) == bs4.element.Comment:
+    print(soup.a.string)
+
 
 '''
 文档树
 '''
-# # .contents 子节点列表
-#
+# .contents 子节点列表
+
 # .chirldren 一个list生成器
-# for child in  soup.body.children:
-#     print(child)
+for child in  soup.body.children:
+    print(child)
 
 # # .descendants 所有的子孙节点
-# for child in soup.descendants:
-#     print(child)
+for child in soup.descendants:
+    print(child)
 
 #  .strings  .stripped_strings 属性
-# for string in soup.strings:
-#     # print(repr(string))
+for string in soup.strings:
+    print(repr(string))
 
 # 可以去除多余空白内容
-# for string in soup.stripped_strings:
-#     print(repr(string))
+for string in soup.stripped_strings:
+    print(repr(string))
 
 '''
 搜索文档树  find_all( name , attrs , recursive , text , **kwargs )

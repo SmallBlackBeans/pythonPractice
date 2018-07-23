@@ -24,15 +24,15 @@ doc = pq(filename='../lxmlxpath/hello.html')
 '''
 属性操作
 '''
-# p = pq('<p id="hello" class="hello"></p>')('p')
-# print(p.attr('id'))
-# print(p.attr('id', 'plop'))  # 修改id
-# print(p.attr('id', 'hello'))
-#
-# print(p.add_class('beauty'))
-# print(p.remove_class('hello'))
-# print(p.css('font-size', '16px'))
-# print(p.css({'background-color': 'yellow'}))
+p = pq('<p id="hello" class="hello"></p>')('p')
+print(p.attr('id'))
+print(p.attr('id', 'plop'))  # 修改id
+print(p.attr('id', 'hello'))
+
+print(p.add_class('beauty'))
+print(p.remove_class('hello'))
+print(p.css('font-size', '16px'))
+print(p.css({'background-color': 'yellow'}))
 
 '''
 DOM 操作

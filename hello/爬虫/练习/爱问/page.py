@@ -4,9 +4,10 @@ import urllib.request
 import re
 import time
 import types
-import tool
 import time
 from bs4 import BeautifulSoup
+
+from 练习.爱问 import tool
 
 
 class Page:

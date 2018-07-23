@@ -17,7 +17,9 @@ req = request.Request(url, data, headers=headers)
 res = urlopen(req,timeout=15)
 page = res.read()
 
-# Proxy（代理）的设置
+'''
+ Proxy（代理）的设置
+'''
 enable_proxy = True
 proxy_handler = request.ProxyHandler({'http': 'http://some-proxy.com:8080'})
 null_proxy_handler = request.ProxyHandler({})
@@ -63,3 +65,21 @@ except request.URLError as e:
         print(e.reason)
 else:
     print('OK')
+
+from urllib.request import HTTPPasswordMgrWithDefaultRealm,HTTPBasicAuthHandler,build_opener
+from urllib.error import URLError
+username = 'username'
+password = 'password'
+url = 'http://localhost:5000'
+
+p = HTTPPasswordMgrWithDefaultRealm()
+p.add_password(None,urllib,username,password)
+autH_hander = HTTPBasicAuthHandler(p)
+opener = build_opener(autH_hander)
+
+try:
+    result = opener.open(url)
+    html = result.read().decode('utf-8')
+    print(html)
+except URLError as e:
+    print(e.reason)
