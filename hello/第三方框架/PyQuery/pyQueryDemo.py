@@ -34,6 +34,10 @@ print(p.remove_class('hello'))
 print(p.css('font-size', '16px'))
 print(p.css({'background-color': 'yellow'}))
 
+
+# 移除指定的元素
+p.find('p').remove()
+
 '''
 DOM 操作
 '''
