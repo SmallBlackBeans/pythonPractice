@@ -100,3 +100,35 @@ redis.blpop('list','list2',timeout=0)
 redis.rlpop('list','list2',timeout=0)
 # 返回并删除名称为src的列表的尾元素，并将该元素添加到名称为dst的列表头部
 redis.rpoplpush('list', 'list2')
+
+"""集合操作 集合中的数据都是不重复的"""
+# 向集合中添加数据
+redis.sadd('tags', 'Book', 'Tea', 'Coffee')
+# 从键为name的集合中删除元素
+redis.srem('tags','Coffee')
+# 随机返回并删除键为name的集合中的一个元素
+redis.spop('tags')
+# 从src对应的集合中移除元素并将其添加到dst对应的集合中
+redis.smove('tags', 'tags2', 'Coffee')
+# 返回键为name的集合的元素个数
+redis.scard('tags')
+# 测试member是否是键为name的集合的元素
+redis.sismember('tags','Book')
+# 返回所有给定键的集合的交集
+redis.sinter(['tags','tags2'])
+# 求交集并将交集保存到dest的集合
+redis.sinterstore('intertag', ['tags', 'tags2'])
+# 返回所有给定键的集合的并集
+redis.sunion(['tags','tags2'])
+# 求并集并将并集保存到dest的集合
+redis.sunionstore('uniontag', ['tags', 'tags2'])
+# 返回所有给定键的集合的差集
+redis.sdiff(['tags','tags2'])
+# 求差集并将差集保存到dest集合
+redis.sdiffstore('difftag', ['tags', 'tags2'])
+# 返回键为name的集合的所有元素
+redis.smembers('tags')
+# 随机返回键为name的集合中的一个元素，但不删除元素
+redis.srandmember('tags')
+
+"""有序集合操作 比集合多了一个分数字段，利用它可以对集合中的数据进行排序"""
