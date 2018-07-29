@@ -48,7 +48,7 @@ class myProcess(Process):
 #         p = myProcess(i, lock)
 #         p.daemon = True  # 设置为True，当父进程结束后，子进程会自动被终止 即主线程直接完了，这些子线程不会做操作
 #         p.start()
-#         p.join()  # 和daemon 相反，父进程会等到所有的紫禁城执行完毕
+#         p.join()  # 和daemon 相反，父进程会等到所有的子进程执行完毕
 #
 #     print('main process ended!')
 

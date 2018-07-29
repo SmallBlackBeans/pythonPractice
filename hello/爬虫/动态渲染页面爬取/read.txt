@@ -1,0 +1,2 @@
+Python提供了许多模拟浏览器运行的库
+如Selenium、Splash、PyV8、Ghost等
