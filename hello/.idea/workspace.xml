@@ -31,6 +31,8 @@
     <SUITE FILE_PATH="coverage/hello$.coverage" NAME="更新本地过期的库 Coverage Results" MODIFIED="1532490508706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
     <SUITE FILE_PATH="coverage/hello$requestsDemo.coverage" NAME="requestsDemo Coverage Results" MODIFIED="1532328566642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第三方框架/requests" />
     <SUITE FILE_PATH="coverage/hello$urllibDemo.coverage" NAME="urllibDemo Coverage Results" MODIFIED="1532326189411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫/基础学习/urllib" />
+    <SUITE FILE_PATH="coverage/hello$send_sms_.coverage" NAME="send_sms_ Coverage Results" MODIFIED="1533031886623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/发短信" />
+    <SUITE FILE_PATH="coverage/hello$taobao_selenium___1_.coverage" NAME="taobao_selenium_ (1) Coverage Results" MODIFIED="1533025892330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫/动态渲染页面爬取/Selenium/淘宝" />
     <SUITE FILE_PATH="coverage/hello$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1530029444650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/usr/local/Cellar/pyenv/versions/3.6.5/lib/python3.6/site-packages/bs4" />
     <SUITE FILE_PATH="coverage/hello$mongoDB_.coverage" NAME="mongoDB_ Coverage Results" MODIFIED="1532509001530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫/数据存储/非关系型数据库存储" />
     <SUITE FILE_PATH="coverage/hello$TornadoDemo.coverage" NAME="TornadoDemo Coverage Results" MODIFIED="1531824391531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web库" />
@@ -41,39 +43,102 @@
     <SUITE FILE_PATH="coverage/hello$mysql.coverage" NAME="mysql Coverage Results" MODIFIED="1530088002751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider/爱问" />
     <SUITE FILE_PATH="coverage/hello$processDemo.coverage" NAME="processDemo Coverage Results" MODIFIED="1530515820453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider/练习/线程进程" />
     <SUITE FILE_PATH="coverage/hello$zhihu.coverage" NAME="zhihu Coverage Results" MODIFIED="1532411776881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫/数据存储/TXT文本存储" />
+    <SUITE FILE_PATH="coverage/hello$taobao_selenium_.coverage" NAME="taobao_selenium_ Coverage Results" MODIFIED="1533024605937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫/动态渲染页面爬取/Selenium/淘宝" />
     <SUITE FILE_PATH="coverage/hello$BDTB.coverage" NAME="BDTB Coverage Results" MODIFIED="1530002758295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider" />
+    <SUITE FILE_PATH="coverage/hello$Splash_.coverage" NAME="Splash_ Coverage Results" MODIFIED="1533024857164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫/动态渲染页面爬取" />
+    <SUITE FILE_PATH="coverage/hello$call_.coverage" NAME="call_ Coverage Results" MODIFIED="1533032113602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/发短信-电话" />
+    <SUITE FILE_PATH="coverage/hello$captcha_.coverage" NAME="captcha_ Coverage Results" MODIFIED="1533032657222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/验证码识别" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="hello" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mysql_.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/爬虫/数据存储/关系型数据库存储/MySQL存储/mysql_.py">
+      <file leaf-file-name="taobao_selenium_.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/爬虫/动态渲染页面爬取/Selenium/淘宝/taobao_selenium_.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="629">
+              <caret line="47" column="49" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Splash_.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/爬虫/动态渲染页面爬取/Splash_.py">
+      <file leaf-file-name="processDemo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/爬虫/练习/线程进程/processDemo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <state relative-caret-position="1666">
+              <caret line="99" column="3" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TodayNews_.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/爬虫/Ajax/今日头条/TodayNews_.py">
+      <file leaf-file-name="send_sms_.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/发短信-电话/send_sms_.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="read.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/验证码识别/read.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="27" selection-start-column="27" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="captcha_.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/验证码识别/captcha_.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/爬虫/动态渲染页面爬取/Selenium/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Splash_.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/爬虫/动态渲染页面爬取/Splash/Splash_.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+              <folding>
+                <element signature="e#228#243#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Selenium_.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/爬虫/动态渲染页面爬取/Selenium/Selenium_.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1819">
+              <caret line="111" column="23" selection-start-line="111" selection-start-column="23" selection-end-line="111" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reverseDownload.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/爬虫/练习/妹子图/reverseDownload.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#23#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,12 +156,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>urllib</find>
-      <find>__all__</find>
-      <find>response</find>
-      <find>LWPCookieJar</find>
-      <find>status</find>
-      <find>status_codes</find>
       <find>_codes</find>
       <find>open</find>
       <find>.content</find>
@@ -121,6 +180,12 @@
       <find>&amp;&amp;</find>
       <find>join()</find>
       <find>map</find>
+      <find>MongoClient</find>
+      <find>from .</find>
+      <find>from ..</find>
+      <find>淘宝</find>
+      <find>pipe</find>
+      <find>read.</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -129,15 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Spider/第三方框架/seleniumDemo.py" />
-        <option value="$PROJECT_DIR$/Spider/第三方框架/lxmlxpath/hello.html" />
-        <option value="$PROJECT_DIR$/Spider/第三方框架/lxmlxpath/xpathDemo.py" />
-        <option value="$PROJECT_DIR$/Spider/第三方框架/lxmlxpath/lxmlDemo.py" />
-        <option value="$PROJECT_DIR$/Spider/第三方框架/PyQuery/pyQueryDemo.py" />
-        <option value="$PROJECT_DIR$/Spider/第三方框架/PySpider/taobaoMM.html" />
-        <option value="$PROJECT_DIR$/Spider/第三方框架/PySpider/PySpiderDemo.py" />
-        <option value="$PROJECT_DIR$/Spider/妹子图/meizi_list.py" />
-        <option value="$PROJECT_DIR$/Spider/练习/反爬虫/reverseDownload.py" />
         <option value="$PROJECT_DIR$/Spider/练习/线程进程/threadDemo.py" />
         <option value="$PROJECT_DIR$/Spider/练习/线程进程/队列.py" />
         <option value="$PROJECT_DIR$/Spider/练习/妹子图/reverseDownload.py" />
@@ -179,7 +235,16 @@
         <option value="$PROJECT_DIR$/爬虫/练习/线程进程/processDemo.py" />
         <option value="$PROJECT_DIR$/爬虫/动态渲染页面爬取/read.txt" />
         <option value="$PROJECT_DIR$/爬虫/动态渲染页面爬取/Selenium_.py" />
+        <option value="$PROJECT_DIR$/爬虫/动态渲染页面爬取/splash_.lua" />
         <option value="$PROJECT_DIR$/爬虫/动态渲染页面爬取/Splash_.py" />
+        <option value="$PROJECT_DIR$/爬虫/动态渲染页面爬取/Splash/负载均衡.py" />
+        <option value="$PROJECT_DIR$/爬虫/动态渲染页面爬取/Selenium/淘宝/config.py" />
+        <option value="$PROJECT_DIR$/爬虫/动态渲染页面爬取/Selenium/淘宝/taobao_selenium_.py" />
+        <option value="$PROJECT_DIR$/发短信/duanxin_.py" />
+        <option value="$PROJECT_DIR$/发短信/send_sms_.py" />
+        <option value="$PROJECT_DIR$/发短信-电话/call_.py" />
+        <option value="$PROJECT_DIR$/验证码识别/read.txt" />
+        <option value="$PROJECT_DIR$/验证码识别/captcha_.py" />
       </list>
     </option>
   </component>
@@ -192,10 +257,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="389" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="-22" />
     <option name="width" value="1440" />
-    <option name="height" value="878" />
+    <option name="height" value="922" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -204,7 +269,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,29 +279,27 @@
             <path>
               <item name="hello" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello" type="462c0819:PsiDirectoryNode" />
-              <item name="爬虫" type="462c0819:PsiDirectoryNode" />
+              <item name="发短信-电话" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello" type="462c0819:PsiDirectoryNode" />
-              <item name="爬虫" type="462c0819:PsiDirectoryNode" />
-              <item name="动态渲染页面爬取" type="462c0819:PsiDirectoryNode" />
+              <item name="练习" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello" type="462c0819:PsiDirectoryNode" />
-              <item name="第三方框架" type="462c0819:PsiDirectoryNode" />
+              <item name="验证码识别" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello" type="462c0819:PsiDirectoryNode" />
-              <item name="第三方框架" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,15 +308,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/爬虫/Ajax" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Spider/练习/妹子图" />
-      <recent name="$PROJECT_DIR$/Spider/练习" />
-      <recent name="$PROJECT_DIR$/Spider/爱问" />
+      <recent name="$PROJECT_DIR$/爬虫/动态渲染页面爬取/Selenium" />
+      <recent name="$PROJECT_DIR$/爬虫/动态渲染页面爬取/Selenium/taobao/淘宝" />
+      <recent name="$PROJECT_DIR$/爬虫/动态渲染页面爬取/Selenium/taobao" />
+      <recent name="$PROJECT_DIR$/爬虫/动态渲染页面爬取/Splash" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/爬虫/动态渲染页面爬取/Selenium/淘宝" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -269,8 +334,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Selenium_">
-    <configuration name="更新本地过期的库" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.captcha_">
+    <configuration name="call_" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="hello" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -278,18 +343,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/练习" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/发短信-电话" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/练习/更新本地过期的库.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/发短信-电话/call_.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Redis_" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="captcha_" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="hello" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -297,31 +362,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫/数据存储/非关系型数据库存储" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/验证码识别" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/数据存储/非关系型数据库存储/Redis_.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Selenium_" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="hello" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫/动态渲染页面爬取" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/动态渲染页面爬取/Selenium_.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/验证码识别/captcha_.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -341,44 +387,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spider/妹子图/meizi_list.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="mongoDB_" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="hello" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫/数据存储/非关系型数据库存储" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/数据存储/非关系型数据库存储/mongoDB_.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="mysql_" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="hello" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫/数据存储/关系型数据库存储/MySQL存储" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/数据存储/关系型数据库存储/MySQL存储/mysql_.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -422,6 +430,63 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="send_sms_" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="hello" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/发短信" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/发短信/send_sms_.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="taobao_selenium_ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="hello" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫/动态渲染页面爬取/Selenium/淘宝" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/动态渲染页面爬取/Selenium/淘宝/taobao_selenium_.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="taobao_selenium_" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="hello" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫/动态渲染页面爬取/Selenium/淘宝" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/动态渲染页面爬取/Selenium/taobao/淘宝/taobao_selenium_.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -445,19 +510,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.mysql_" />
-      <item itemvalue="Python.更新本地过期的库" />
-      <item itemvalue="Python.mongoDB_" />
-      <item itemvalue="Python.Redis_" />
-      <item itemvalue="Python.Selenium_" />
+      <item itemvalue="Python.taobao_selenium_" />
+      <item itemvalue="Python.taobao_selenium_ (1)" />
+      <item itemvalue="Python.send_sms_" />
+      <item itemvalue="Python.call_" />
+      <item itemvalue="Python.captcha_" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Selenium_" />
-        <item itemvalue="Python.mysql_" />
-        <item itemvalue="Python.Redis_" />
-        <item itemvalue="Python.mongoDB_" />
-        <item itemvalue="Python.更新本地过期的库" />
+        <item itemvalue="Python.captcha_" />
+        <item itemvalue="Python.call_" />
+        <item itemvalue="Python.send_sms_" />
+        <item itemvalue="Python.taobao_selenium_ (1)" />
+        <item itemvalue="Python.taobao_selenium_" />
       </list>
     </recent_temporary>
   </component>
@@ -484,24 +549,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50069445" side_tool="true" weight="0.50240386" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3281046" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49930555" weight="0.5124183" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49930555" weight="0.3893696" />
       <window_info anchor="right" id="Mongo Explorer" order="3" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.49690977" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49275362" visible="true" weight="0.32403433" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49275362" visible="true" weight="0.32403433" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="LuaJ" order="4" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.5072464" side_tool="true" weight="0.18263888" />
       <window_info id="Favorites" order="2" sideWeight="0.5081585" side_tool="true" weight="0.24609375" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47466007" />
+      <window_info anchor="bottom" id="LuaCheck" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -514,26 +580,26 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.5081585" side_tool="true" weight="0.24609375" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4918415" visible="true" weight="0.18263888" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.55649036" />
+      <window_info anchor="right" id="Data View" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.55649036" />
-      <window_info anchor="right" id="Data View" order="4" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32934928" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4918415" visible="true" weight="0.18263888" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39783654" />
-      <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32934928" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32934928" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32934928" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info id="Favorites" order="2" sideWeight="0.5081585" side_tool="true" weight="0.24609375" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,126 +638,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第三方框架/lxmlxpath/lxmlDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第三方框架/requests/requestsDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="69" column="11" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第三方框架/测试样例.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/基础学习/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-55">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/pyenv/versions/3.6.5/lib/python3.6/site-packages/pyquery/pyquery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="315" lean-forward="true" selection-start-line="315" selection-end-line="315" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/数据存储/TXT文本存储/explore.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="612" column="56" selection-start-line="612" selection-start-column="56" selection-end-line="612" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/数据存储/JSON文件存储/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/477685999/_csv.py" />
-    <entry file="file://$PROJECT_DIR$/爬虫/数据存储/CSV文件存储/csv_.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/数据存储/JSON文件存储/Json.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/数据存储/TXT文本存储/zhihu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第三方框架/PyQuery/pyQueryDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第三方框架/beautifulSoup/BeautifulSoupDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/基础学习/urllib/Robots协议.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/pyenv/versions/3.6.5/lib/python3.6/site-packages/pymysql/connections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="434" column="25" selection-start-line="434" selection-start-column="25" selection-end-line="434" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/pyenv/versions/3.6.5/lib/python3.6/site-packages/pymysql/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="89" column="16" lean-forward="true" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/pyenv/versions/3.6.5/lib/python3.6/site-packages/pip/__main__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/pyenv/versions/3.6.5/lib/python3.6/site-packages/pip/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/pyenv/versions/3.6.5/lib/python3.6/subprocess.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -825,13 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/数据存储/非关系型数据库存储/mongoDB_.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/爬虫/练习/数据库/mongoDb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -846,24 +785,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/477685999/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="958" column="28" lean-forward="true" selection-start-line="958" selection-start-column="28" selection-end-line="958" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/477685999/builtins.py" />
     <entry file="file:///usr/local/Cellar/pyenv/versions/3.6.5/lib/python3.6/site-packages/requests/exceptions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/练习/线程进程/processDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="60" column="13" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -874,24 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/数据存储/关系型数据库存储/MySQL存储/mysql_.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/Ajax/今日头条/TodayNews_.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/动态渲染页面爬取/read.txt" />
     <entry file="file:///usr/local/Cellar/pyenv/versions/3.6.5/lib/python3.6/site-packages/selenium/webdriver/common/by.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -906,11 +814,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/动态渲染页面爬取/Selenium_.py" />
-    <entry file="file://$PROJECT_DIR$/爬虫/动态渲染页面爬取/Splash_.py">
+    <entry file="file://$PROJECT_DIR$/爬虫/动态渲染页面爬取/taobao.png" />
+    <entry file="file:///usr/local/Cellar/pyenv/versions/3.6.5/lib/python3.6/site-packages/selenium/webdriver/support/wait.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="76" column="34" lean-forward="true" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/数据存储/关系型数据库存储/MySQL存储/mysql_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/动态渲染页面爬取/Splash/jd.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/动态渲染页面爬取/Splash/负载均衡.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/数据存储/非关系型数据库存储/mongoDB_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/Ajax/今日头条/TodayNews_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/动态渲染页面爬取/Splash/splash_.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="45" column="4" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/动态渲染页面爬取/Selenium/淘宝/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/爬虫/练习/爱问/spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/练习/妹子图/meizi_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/练习/妹子图/reverseDownload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/动态渲染页面爬取/Selenium/Selenium_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1819">
+          <caret line="111" column="23" selection-start-line="111" selection-start-column="23" selection-end-line="111" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/动态渲染页面爬取/Splash/Splash_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+          <folding>
+            <element signature="e#228#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/动态渲染页面爬取/Selenium/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/动态渲染页面爬取/Selenium/taobao/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/爬虫/动态渲染页面爬取/Selenium/淘宝/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="57" lean-forward="true" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/动态渲染页面爬取/Selenium/淘宝/taobao_selenium_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="47" column="49" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/练习/线程进程/processDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="99" column="3" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/动态渲染页面爬取/Splash/read.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/发短信-电话/call_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/发短信-电话/send_sms_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/验证码识别/read.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/验证码识别/captcha_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
