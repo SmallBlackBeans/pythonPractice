@@ -1,0 +1,26 @@
+2018-08-01 15:41:48,575 - __main__ - INFO - This is a log info
+2018-08-01 15:41:48,575 - __main__ - INFO - This is a log info
+2018/08/01 15:41:48 - __main__ - INFO - 53 - logging_ - This is a log info
+2018-08-01 15:41:48,620 - __main__ - DEBUG - Debugging
+2018/08/01 15:41:48 - __main__ - DEBUG - 54 - logging_ - Debugging
+2018-08-01 15:41:48,624 - __main__ - WARNING - Warning
+2018-08-01 15:41:48,624 - __main__ - WARNING - Warning
+2018/08/01 15:41:48 - __main__ - WARNING - 55 - logging_ - Warning
+2018-08-01 15:41:48,629 - __main__ - ERROR - Error exsits
+2018-08-01 15:41:48,629 - __main__ - ERROR - Error exsits
+2018/08/01 15:41:48 - __main__ - ERROR - 56 - logging_ - Error exsits
+2018-08-01 15:41:48,632 - __main__ - INFO - start
+2018-08-01 15:41:48,632 - __main__ - INFO - start
+2018/08/01 15:41:48 - __main__ - INFO - 61 - logging_ - start
+2018-08-01 15:41:48,635 - __main__ - WARNING - Something maybe fail
+2018-08-01 15:41:48,635 - __main__ - WARNING - Something maybe fail
+2018/08/01 15:41:48 - __main__ - WARNING - 62 - logging_ - Something maybe fail
+2018-08-01 15:41:48,644 - __main__ - INFO - Finished
+2018-08-01 15:41:48,644 - __main__ - INFO - Finished
+2018/08/01 15:41:48 - __main__ - INFO - 67 - logging_ - Finished
+2018-08-01 15:43:39,373 - __main__ - INFO - start
+2018/08/01 15:43:39 - __main__ - INFO - 61 - logging_ - start
+2018-08-01 15:43:39,373 - __main__ - WARNING - Something maybe fail
+2018/08/01 15:43:39 - __main__ - WARNING - 62 - logging_ - Something maybe fail
+2018-08-01 15:43:39,375 - __main__ - INFO - Finished
+2018/08/01 15:43:39 - __main__ - INFO - 67 - logging_ - Finished
