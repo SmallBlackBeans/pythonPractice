@@ -9,6 +9,10 @@ print(r.status_code)
 # 200
 print(r.encoding)
 # ISO-8859-1
+#从内容分析编码类型
+print(r.apparent_encoding)
+# 二进制
+print(r.content)
 
 '''
 cookies
