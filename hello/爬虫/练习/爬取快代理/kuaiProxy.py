@@ -24,7 +24,7 @@ class GetProxy(object):
 
     def get_urls(self):
         urls = []
-        for i in range(1, 10)
+        for i in range(1, 10):
             url = self.starturl + str(i)
             urls.append(url)
         return urls
