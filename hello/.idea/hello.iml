@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/爬虫/练习/妹子图" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Web库" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/日志处理" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/爬虫/练习/搜狗词库抓取&amp;解析" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
