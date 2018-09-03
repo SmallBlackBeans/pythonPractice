@@ -66,6 +66,11 @@ print(list1)
 list1[2:5] = []  # 删除
 print(list1)
 
+# 列表去重的小技巧
+url_list = []
+url_list = list(set(url_list))
+
+
 '''
 Tuple
 也可以下标获取
@@ -87,7 +92,7 @@ string、list和tuple都属于sequence（序列）
 '''
 
 '''
-Sets
+Set
 无序不重复元素的序列
 基本功能就是进行成员关系测试和删除重复元素
 {} 或者 set()
@@ -135,7 +140,6 @@ print(chr(65))  # 将编码转换为对应的字符
 print(ord('A'))  # 将一个字符转换为它的整数值
 hex(x)  # 将一个整数值转换为一个十六进制字符串
 oct(x)  # 将一个整数值转换为一个八进制字符串
-
 
 
 

@@ -9,6 +9,10 @@ print(r.status_code)
 # 200
 print(r.encoding)
 # ISO-8859-1
+#从内容分析编码类型
+print(r.apparent_encoding)
+# 二进制
+print(r.content)
 
 '''
 cookies
@@ -78,7 +82,7 @@ SSL证书验证
 '''
 import urllib3
 import logging
-urllib3.disable_warnings() # 屏蔽警告⚠️
+urllib3.disable_warnings() # 屏蔽https等警告⚠️
 logging.captureWarnings(True) # 或者捕获警告道日志的方式起来忽略警告
 r = requests.get('https://kyfw.12306.cn/otn/', verify=True)
 print(r.text)

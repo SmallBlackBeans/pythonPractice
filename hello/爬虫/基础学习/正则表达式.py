@@ -81,3 +81,59 @@ print(re.sub(pattern, func, s))
 # I Say, Hello World!
 
 # subn 返回 (sub(repl, string[, count]), 替换次数)
+
+
+
+"""零宽断言
+?=代表零宽度正预测先行断言，它断言自身出现的位置的后面可以匹配后面跟的表达式。
+?<=代表零宽度正回顾后发断言，它断言自身出现的位置的前面可以匹配后面跟的表达式。
+?!代表零宽度负预测先行断言，它断言自身出现的位置的后面不可以匹配后面跟的表达式。
+?<!代表零宽度负回顾后发断言，它断言自身出现的位置的后面不可以匹配后面跟的表达式。
+"""
+
+
+
+import re
+
+
+
+str = '我的个人邮箱是cqc@cuiqingcai.com，个人博客是cuiqingcai.com，个人公众号是进击的Coder'
+
+# ?=
+result = re.search('我的个人邮箱是(.*?)(?=，个人博客)', str)
+print('整句结果：' + result.group(), '第一个匹配结果：' + result.group(1), sep='\n')
+
+# ?<=
+result = re.search('(?<=，)个人博客是(.*?)(?=，)', str)
+print('整句结果：' + result.group(), '第一个匹配结果：' + result.group(1), sep='\n')
+
+
+# ?!
+result = re.search('我的个人邮箱是(.*?)(?!，个人公众号)(?=，个人博客)', str)
+print('整句结果：' + result.group(), '第一个匹配结果：' + result.group(1), sep='\n')
+
+# ?<!
+result = re.search('(?<=，)(?<!。)个人博客是(.*?)(?=，)', str)
+print('整句结果：' + result.group(), '第一个匹配结果：' + result.group(1), sep='\n')
+
+
+
+# ，|\Z，意思是匹配逗号或结束符
+results = re.findall('个人(.*?)是(.*?)(?=，|\Z)', str)
+for result in results:
+    print(result[0] + ': ' + result[1])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
